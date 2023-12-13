@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special wish</title>
+
+    <script src="https://kit.fontawesome.com/a247347ffd.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body{
+            font-family: 'Poppins', sans-serif;
+            max-width: 800px;
+            background-color: #f7ffe7;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 5vw;
+            font-family: 'Kalam', cursive;
+            text-align: center;
+        }
+        .lion img{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+        }
+        .container-two .tiger{
+            width: 50%;
+        }
+        .tiger img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid rgb(169, 250, 7);
+            padding: 10px;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+        .food img{
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: 1px 1px 40px #f982ff;
+        }
+        .food h2{
+            color: rgb(130, 78, 0);
+        }
+        .food h4{
+            color: grey;
+        }
+        #col{
+            color: #8676fc;
+        }
+
+
+        .text-position{
+            text-align: center;
+            background-color: rgb(1, 21, 1);
+            padding-top: 10px;
+            margin: 0;
+        }
+        h5.color-white {
+            margin-bottom: 0;
+        }
+        .fa-brands{
+            font-size: 30px;
+        }
+
+        i.fa-brands.fa-facebook{
+            margin-right: 10px;
+            border-radius: 50px;
+            background-color: white;
+            color: #8676fc;
+        }
+        i.fa-brands.fa-instagram{
+            border-radius: 10px;
+            background-color: white;
+            color: #E1306C	;
+        }
+        .color-white{
+            color: rgb(135, 154, 169);
+            font-size: 30px;
+            font-family: 'Marck Script', cursive;
+        }
+        #col-org{
+            color: rgb(255, 153, 0);
+            font-size: 30px;
+        }
+        #col-gray{
+            color: rgb(245, 255, 222);
+        }
+
+        #copy{
+            color: #666666;
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container-two{
+                flex-direction: column-reverse;
+            }
+            .container-two .tiger{
+            width: 100%;
+            }
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+            @media screen and (min-width: 577px) and (max-width: 700px) {
+            .container{
+                    grid-template-columns: repeat(2,1fr);
+            }
+            
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <section class="lion">
+        <h1>Special Birthday wishes <br> from <br><span id="nam">Muhsina & Simon</span></h1>
+        <img src="images/lion.jpg" alt="">
+     </section>
+     <section>
+        <div class="container-two">
+            <div class="food">
+                <img src="images/players/player-8.jpg" alt="">
+                <h2>Birthday message</h2>
+                
+                <p>Happiest Birthday to your friend Zerin. <br>
+                    Warmest wishes to you on your very special day. I hope that you continue to change the lives of others with your positivity, love, and beautiful spirit. <br>
+                    Happy Birthday once Again 🎂</p>
+                    <h4>by <span id="col">U Cha Shing Marma ( Simon )</span></h4>
+            </div>
+            <br>
+            <br>
+            <div class="food">
+                <img src="images/players/player-4.jpg" alt="">
+                <h2>Birthday message</h2>
+                
+                <p>It's 2022. <br>
+                    And if I start counting the days of our frndship maybe I won't be able.....
+                    জীবনে এমন কিছু মানুষ থাকে যাদের সাথে সম্পর্ক হঠাৎ করে এত সুন্দর হয়ে যায় যে আর বন্ডিং টা এত স্ট্রং থাকে যে মাসের পর মাস যোগাযোগ বিচ্ছিন্ন থাকলেও মনের টান টা কখনো কমে যায় না।।।। এই মানুষগুলো জীবনের একটা অতি গুরুত্বপূর্ণ অংশ জুড়ে থাকে আর এদের জায়গা টা থাকে  নন রিপ্লেসেবল। <br>
+                    অনেক দোয়া করি লাইফে অনেক স্বপ্ন দেখ আর আল্লাহ্ সেগুলো পূরণ করুক।। <br>
+                    May Almighty always bless you.... <br>
+                    Always try to be happy and keep smiling... <br>
+                    And meet me soon.</p>
+                    <h4>by <span id="col">Muhsina Jaman</span></h4>
+            </div>
+        </div>
+     </section>
+     
+</body>
+<br>
+<br>
+<footer class="text-position gave">
+        <h5 class="color-white">Design and Development by <br>
+        <span id="col-org" >Rocky</span> </h5>
+    <h5 id="col-gray">Contact Us</h5>
+    <a target="_blank" href="https://www.facebook.com/rocky.ismai/"><i class="fa-brands fa-facebook"></i></a>
+    <a target="_blank" href="https://www.instagram.com/_ismail_rt"><i class="fa-brands fa-instagram"></i></a>
+<br>
+<br>
+<p id="copy">&copy;Copyright 2022 Hossain Mohammad Ismail</p>
+ </footer>
+</html>

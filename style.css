@@ -1,0 +1,252 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e4fd;
+    max-width: 800px;
+    /* border: 1px solid yellowgreen; */
+    margin: 0 auto;
+}
+
+.one h4{
+    font-family: 'Caveat', cursive;
+    background-image: url(images/flower-1.jpg);
+    box-shadow: 5px 5px 80px greenyellow;
+    border-radius: 15px;
+    background-size: cover;
+    font-size: 6.5vw;
+    margin: 20px 40px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* ===============
+================== */
+#first{
+    color: #660438;
+}
+.secound{
+    color: rgb(124, 167, 13);
+}
+#mon{
+    color: lightblue;
+}
+
+h1{
+    font-size: 10vw;
+}
+.lion img{
+    width: 100%;
+}
+.container-two{
+    display: flex;
+}
+.container-two .tiger{
+    width: 50%;
+}
+.tiger img{
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.food{
+    border: 2px solid indianred;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1a193b;
+}
+#colo{
+    background-color: #deebeb;
+}
+#lolo{
+    color: rgb(2, 1, 68);
+}
+#class{
+    color: rgb(2, 31, 31);
+}
+.food img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px #9ad3ff;
+}
+#size{
+    width: 200px;
+    height: 400px;
+}
+.food video{
+    border-radius:20px;
+    box-shadow: 1px 1px 50px #9ad3ff;
+}
+.food p, h2{
+    color: #8a8b8b;
+}
+.food h4{
+    color: #aab9c4;
+}
+.food a{
+    text-decoration: none;
+    color: indianred;
+}
+/* ================
+=================== */
+.specialss{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #2a0b30;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 40px rgb(247, 0, 255);
+    border-top: 5px solid rgb(255, 149, 0);
+    border-bottom: 5px solid rgb(51, 0, 255);
+    border-radius: 25px;
+    
+} 
+.specials h2{
+    margin-top: 25px;
+    text-align: center;
+    color:rgb(165, 177, 188);
+    
+}
+.special a{
+    background-image: linear-gradient(#6bbfff, #002157);
+    padding: 30px 50px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #cccbff;
+    margin-left: 50px;
+   
+}
+
+/* ==========================
+============================ */
+.text-position{
+    text-align: center;
+    background-color: rgb(1, 16, 1);
+    padding-top: 10px;
+    margin: 0;
+}
+.color-white{
+    color: rgb(135, 154, 169);
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+#col-org{
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+}
+#col-gray{
+    color: rgb(245, 255, 222);
+}
+h5.color-white {
+    margin-bottom: 0;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+i.fa-brands.fa-facebook{
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: #8676fc;
+}
+i.fa-brands.fa-instagram{
+    border-radius: 10px;
+    background-color: white;
+    color: #E1306C	;
+}
+
+/* ===============================
+================================== */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: blueviolet;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+}
+
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+#copy{
+    color: #666666;
+    font-size: 10px;
+}
+@media screen and (max-width: 576px) {
+    .container-two{
+        flex-direction: column-reverse;
+    }
+    .container-two .tiger{
+    width: 100%;
+    }
+    .container, .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+
+
+    .food{
+        border: 2px solid indianred;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #1a193b;
+    }
+    .food img{
+        width: 100%;
+        border-radius: 30px;
+        box-shadow: 1px 1px 50px #9ad3ff;
+    }
+    .food video{
+        border-radius:20px;
+        box-shadow: 1px 1px 50px #9ad3ff;
+    }
+    .food p, h2{
+        color: #8a8b8b;
+    }
+    .food h4{
+        color: #aab9c4;
+    }
+    .food a{
+        text-decoration: none;
+        color: indianred;
+    }
+
+
+}
+    @media screen and (min-width: 577px) and (max-width: 700px) {
+    .container{
+            grid-template-columns: repeat(2,1fr);
+    }
+    
+}
