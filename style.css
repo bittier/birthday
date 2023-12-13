@@ -21,6 +21,13 @@ body{
     text-align: center;
     padding: 40px 20px;
 }
+h5{
+    text-align: center;
+    background-image: linear-gradient(#6bbfff, #002157);
+    color: red;
+    
+}
+    
 
 /* ===============
 ================== */
