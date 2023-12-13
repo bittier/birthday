@@ -23,9 +23,9 @@ body{
 }
 h7{
     text-align: center;
+    background-color: #1a193b;
     box-shadow: 5px 5px 80px greenyellow;
-    color: white;
-    background: red; 
+    color: black;
 }
     
 
